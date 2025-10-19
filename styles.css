@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: #333;
+    font-family: Arial, Helvetica, Verdana, sans-serif;
+    max-width: 1200px;
+}
+
+.head{
+    background-color: whitesmoke;
+}
+
+h1{
+    padding: 10px 20px;
+    justify-self: center;
+    align-self: center;
+    margin-bottom: 50px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    border: 0.1px solid #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    justify-self: center;
+    align-self: center;
+}
+form input, button{
+    padding: 5px 10px;
+}
